@@ -1,0 +1,23 @@
+{
+    "name": "@fr8/ensdomains-solsha1",
+    "version": "0.1.0",
+    "public": false,
+    "requires": true,
+    "lockfileVersion": 1,
+    "devDependencies": {
+      "eth-gas-reporter": "^0.1.2",
+      "solium": "^1.0.4",
+      "truffle": "^5.0.0"
+    },
+    "scripts": {
+      "pretest": "truffle compile",
+      "test": "truffle test",
+      "watch": "npm-watch",
+      "lint": "solium --dir ./contracts",
+      "prepublishOnly": "truffle compile && truffle networks --clean"
+    },
+    "dependencies": {
+      "hash-test-vectors": "^1.3.2"
+    }
+  }
+  

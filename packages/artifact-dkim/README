@@ -1,0 +1,59 @@
+Starting migrations...
+======================
+> Network name:    'besu'
+> Network id:      211
+> Block gas limit: 16234336 (0xf7b760)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0xde63c6e998cf048f188d20d343d8980e2b3f4dc2912006e239c3d740815acbbb
+   > Blocks: 0            Seconds: 4
+   > contract address:    0x895f2F20D2F258Ced0b2Be96E03C906197199114
+   > block number:        559995
+   > block timestamp:     1596543128
+   > account:             0x02C509580aD4254414349C0b8e616B37A837A576
+   > balance:             0.20975908
+   > gas used:            238594 (0x3a402)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00477188 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00477188 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'DKIM'
+   ----------------
+   > transaction hash:    0x2380a0243fa5b192e6f8610f1a1da2f0bddcfaf22fbcc8bbeb23d326964c5d0f
+   > Blocks: 1            Seconds: 4
+   > contract address:    0xFCfEd315C465BB50e7231184a7B10cBa4577A6A1
+   > block number:        559997
+   > block timestamp:     1596543140
+   > account:             0x02C509580aD4254414349C0b8e616B37A837A576
+   > balance:             0.113976
+   > gas used:            4746806 (0x486e36)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.09493612 ETH
+   
+     Contract: DKIM
+    ✓ verify raw Gmail (7323ms)
+    ✓ verify raw FreightTrust.com (7060ms)
+    ✓ verify raw ProtonMail (5131ms)
+    ✓ verify raw Outlook (10487ms)
+    ✓ verify Gmail with utf-8, whitespace sequences (7517ms)
+
+
+  5 passing (38s)
+
+✨  Done in 49.30s

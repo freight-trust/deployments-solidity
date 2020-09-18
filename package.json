@@ -1,0 +1,19 @@
+{
+  "name": "solidity-ci-pipeline",
+  "version": "0.1.0",
+  "description": "solidity-ci pipeline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambacha/solidity-ci-pipeline.git"
+  },
+  "author": "sam bacha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sambacha/solidity-ci-pipeline/issues"
+  },
+  "homepage": "https://github.com/sambacha/solidity-ci-pipeline#readme"
+}
